@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Else = exports.If = exports.IfCore = undefined;
+exports.Else = exports.If = undefined;
 
 var _dec, _dec2, _dec3, _class, _desc, _value, _class2, _descriptor, _descriptor2, _dec4, _dec5, _class4;
 
@@ -60,7 +60,7 @@ function _initializerWarningHelper(descriptor, context) {
 
 
 
-var IfCore = exports.IfCore = function () {
+var IfCore = function () {
   function IfCore(viewFactory, viewSlot) {
     
 

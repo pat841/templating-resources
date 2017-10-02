@@ -85,7 +85,7 @@ System.register(['aurelia-templating', 'aurelia-dependency-injection'], function
       inject = _aureliaDependencyInjection.inject;
     }],
     execute: function () {
-      _export('IfCore', IfCore = function () {
+      IfCore = function () {
         function IfCore(viewFactory, viewSlot) {
           
 
@@ -161,9 +161,7 @@ System.register(['aurelia-templating', 'aurelia-dependency-injection'], function
         };
 
         return IfCore;
-      }());
-
-      _export('IfCore', IfCore);
+      }();
 
       _export('If', If = (_dec = customAttribute('if'), _dec2 = inject(BoundViewFactory, ViewSlot), _dec3 = bindable({ primaryProperty: true }), _dec(_class = templateController(_class = _dec2(_class = (_class2 = function (_IfCore) {
         _inherits(If, _IfCore);

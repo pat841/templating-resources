@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Repeat = exports.RepeatStrategyLocator = exports.Show = exports.Hide = exports.SignalBindingBehavior = exports.SanitizeHTMLValueConverter = exports.SetRepeatStrategy = exports.NumberRepeatStrategy = exports.MapRepeatStrategy = exports.ArrayRepeatStrategy = exports.AbstractRepeater = exports.lifecycleOptionalBehaviors = exports.AttrBindingBehavior = exports.aureliaHideClassName = exports.TwoWayBindingBehavior = exports.OneWayBindingBehavior = exports.OneTimeBindingBehavior = exports.BindingSignaler = exports.Compose = exports.DebounceBindingBehavior = exports.Focus = exports.HTMLSanitizer = exports.Else = exports.If = exports.IfCore = exports.NullRepeatStrategy = exports.Replaceable = exports.SelfBindingBehavior = exports.ThrottleBindingBehavior = exports.UpdateTriggerBindingBehavior = exports.With = undefined;
+exports.Repeat = exports.RepeatStrategyLocator = exports.Show = exports.Hide = exports.SignalBindingBehavior = exports.SanitizeHTMLValueConverter = exports.SetRepeatStrategy = exports.NumberRepeatStrategy = exports.MapRepeatStrategy = exports.ArrayRepeatStrategy = exports.AbstractRepeater = exports.lifecycleOptionalBehaviors = exports.AttrBindingBehavior = exports.aureliaHideClassName = exports.TwoWayBindingBehavior = exports.OneWayBindingBehavior = exports.OneTimeBindingBehavior = exports.BindingSignaler = exports.Compose = exports.DebounceBindingBehavior = exports.Focus = exports.HTMLSanitizer = exports.Else = exports.If = exports.NullRepeatStrategy = exports.Replaceable = exports.SelfBindingBehavior = exports.ThrottleBindingBehavior = exports.UpdateTriggerBindingBehavior = exports.With = undefined;
 
 var _dec, _dec2, _class, _class2, _temp, _dec3, _dec4, _class3, _dec5, _dec6, _dec7, _class4, _desc, _value, _class5, _descriptor, _descriptor2, _dec8, _dec9, _class7, _dec10, _dec11, _class8, _dec15, _dec16, _class11, _desc2, _value2, _class12, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _dec17, _class15, _dec18, _class16, _dec19, _class17, _dec20, _dec21, _class18, _dec22, _dec23, _class19, _dec24, _dec25, _class20, _dec26, _dec27, _class21, _desc3, _value3, _class22, _descriptor7, _descriptor8, _descriptor9, _descriptor10;
 
@@ -394,7 +394,7 @@ var NullRepeatStrategy = exports.NullRepeatStrategy = function () {
   return NullRepeatStrategy;
 }();
 
-var IfCore = exports.IfCore = function () {
+var IfCore = function () {
   function IfCore(viewFactory, viewSlot) {
     _classCallCheck(this, IfCore);
 

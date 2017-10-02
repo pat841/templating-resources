@@ -4,7 +4,7 @@ define(['exports', 'aurelia-templating', 'aurelia-dependency-injection'], functi
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
-  exports.Else = exports.If = exports.IfCore = undefined;
+  exports.Else = exports.If = undefined;
 
   function _initDefineProp(target, property, descriptor, context) {
     if (!descriptor) return;
@@ -77,7 +77,7 @@ define(['exports', 'aurelia-templating', 'aurelia-dependency-injection'], functi
 
   
 
-  var IfCore = exports.IfCore = function () {
+  var IfCore = function () {
     function IfCore(viewFactory, viewSlot) {
       
 

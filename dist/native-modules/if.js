@@ -52,7 +52,7 @@ function _initializerWarningHelper(descriptor, context) {
 import { BoundViewFactory, ViewSlot, bindable, customAttribute, templateController } from 'aurelia-templating';
 import { inject } from 'aurelia-dependency-injection';
 
-export var IfCore = function () {
+var IfCore = function () {
   function IfCore(viewFactory, viewSlot) {
     
 

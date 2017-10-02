@@ -187,15 +187,6 @@ export declare class NullRepeatStrategy {
 }
 
 /**
-* For internal use only. May change without warning.
-*/
-export declare class IfCore {
-  constructor(viewFactory?: any, viewSlot?: any);
-  bind(bindingContext?: any, overrideContext?: any): any;
-  unbind(): any;
-}
-
-/**
 * Binding to conditionally include or not include template logic depending on returned result
 * - value should be Boolean or will be treated as such (truthy / falsey)
 */

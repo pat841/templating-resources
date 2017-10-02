@@ -46,7 +46,7 @@ function _initializerWarningHelper(descriptor, context) {
 import { BoundViewFactory, ViewSlot, bindable, customAttribute, templateController } from 'aurelia-templating';
 import { inject } from 'aurelia-dependency-injection';
 
-export let IfCore = class IfCore {
+let IfCore = class IfCore {
   constructor(viewFactory, viewSlot) {
     this.viewFactory = viewFactory;
     this.viewSlot = viewSlot;

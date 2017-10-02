@@ -366,7 +366,7 @@ export class NullRepeatStrategy {
 /**
 * For internal use only. May change without warning.
 */
-export class IfCore {
+class IfCore {
   constructor(viewFactory, viewSlot) {
     this.viewFactory = viewFactory;
     this.viewSlot = viewSlot;

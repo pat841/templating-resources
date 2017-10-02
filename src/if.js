@@ -4,7 +4,7 @@ import {inject} from 'aurelia-dependency-injection';
 /**
 * For internal use only. May change without warning.
 */
-export class IfCore {
+class IfCore {
   constructor(viewFactory, viewSlot) {
     this.viewFactory = viewFactory;
     this.viewSlot = viewSlot;
